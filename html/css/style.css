@@ -1,0 +1,34 @@
+/* CSS */
+p{
+    color: red;
+}
+
+/* uneversal selector */
+*{
+    color: green;
+}
+
+/* Class Selector */
+.parag1{
+    color: aquamarine;
+}
+
+/* ID selector */
+#parag2{
+    color: brown;
+}
+
+/* Attribute Selector */
+/* Targeting specific elements with the href attribute */
+h3[href]{
+    color: pink;
+}
+/* Targeting all elements with href attribute */
+[href]{
+    background-color: bisque;
+}
+/* targeting specific element with a specific attribute value */
+a[href="https://wwww.example.com"]{
+    color: tomato;
+    background-color: aliceblue;
+}
